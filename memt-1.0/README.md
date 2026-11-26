@@ -40,7 +40,8 @@ sampled 693 shared tensors: bit-identical=693  different=0
 **共有する 693 テンソル全部がビット単位で同一。** MemT-1.0-Nano は
 Qwen3.6-35B-A3B のテキスト塔を**凍結したまま**、記憶ブロックの
 60 テンソルを足しただけのチェックポイントである。
-(backbone 側にしか無い 352 テンソルは vision 塔で、Nano はテキスト専用。)
+(backbone 側にしか無い 352 テンソルは vision 塔 333 個と MTP ヘッド 19 個で、
+Nano はテキスト専用かつ MTP を落としている。)
 
 しかも ctx=4096 > `chunk_tokens`=2048 の素の forward でも NLL が一致する。
 つまり記憶経路は `commit_memory` / `memory=` で明示的に文書を投入しない限り
