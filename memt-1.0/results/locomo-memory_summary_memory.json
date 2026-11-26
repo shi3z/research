@@ -1,0 +1,56 @@
+{
+  "arm": "memory",
+  "attn": "sdpa",
+  "overall": {
+    "n": 304,
+    "f1": 32.75,
+    "recall": 34.61,
+    "em": 15.79,
+    "mean_seconds": 1.18
+  },
+  "excl_adversarial": {
+    "n": 233,
+    "f1": 34.58,
+    "recall": 37.14,
+    "em": 12.88,
+    "mean_seconds": 1.2
+  },
+  "by_category": {
+    "1": {
+      "n": 43,
+      "f1": 40.81,
+      "recall": 46.88,
+      "em": 16.28,
+      "mean_seconds": 1.39
+    },
+    "2": {
+      "n": 63,
+      "f1": 18.88,
+      "recall": 20.26,
+      "em": 1.59,
+      "mean_seconds": 1.1
+    },
+    "3": {
+      "n": 13,
+      "f1": 16.66,
+      "recall": 15.53,
+      "em": 0.0,
+      "mean_seconds": 1.07
+    },
+    "4": {
+      "n": 114,
+      "f1": 42.95,
+      "recall": 45.26,
+      "em": 19.3,
+      "mean_seconds": 1.21
+    },
+    "5": {
+      "n": 71,
+      "f1": 26.76,
+      "recall": 26.29,
+      "em": 25.35,
+      "mean_seconds": 1.09
+    }
+  },
+  "wall_minutes": 6.5
+}

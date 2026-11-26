@@ -1,0 +1,6 @@
+nano tensors=753  backbone tensors=1045
+shared-name tensors=693  memt-only=60
+memt-only sample: ['model.language_model.layers.11.self_attn.memt.decay_bias', 'model.language_model.layers.11.self_attn.memt.decay_scale_log', 'model.language_model.layers.11.self_attn.memt.f_down.weight', 'model.language_model.layers.11.self_attn.memt.g_down.weight', 'model.language_model.layers.11.self_attn.memt.in_proj.weight', 'model.language_model.layers.11.self_attn.memt.o_norm.weight']
+backbone names not in nano: ['model.visual.blocks.0.attn.proj.bias', 'model.visual.blocks.0.attn.proj.weight', 'model.visual.blocks.0.attn.qkv.bias', 'model.visual.blocks.0.attn.qkv.weight', 'model.visual.blocks.0.mlp.linear_fc1.bias', 'model.visual.blocks.0.mlp.linear_fc1.weight']
+
+sampled 693 shared tensors: bit-identical=693  different=0

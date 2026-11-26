@@ -1,0 +1,23 @@
+{
+  "model": "/mnt/ssd/models/Qwen3.6-35B-A3B",
+  "n": 490,
+  "method": "option-letter logprob argmax",
+  "accuracy": 59.59,
+  "by_category": {
+    "biology": 77.14,
+    "business": 48.57,
+    "chemistry": 42.86,
+    "computer science": 57.14,
+    "economics": 71.43,
+    "engineering": 57.14,
+    "health": 88.57,
+    "history": 54.29,
+    "law": 57.14,
+    "math": 22.86,
+    "other": 54.29,
+    "philosophy": 80.0,
+    "physics": 45.71,
+    "psychology": 77.14
+  },
+  "minutes": 2.7
+}

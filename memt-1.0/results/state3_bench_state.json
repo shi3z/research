@@ -1,0 +1,55 @@
+{
+  "attn": "sdpa",
+  "load_seconds": 21.980408430099487,
+  "full_attention_layers": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23,
+    27,
+    31,
+    35,
+    39
+  ],
+  "kv_bytes_per_token": 20480,
+  "rows": [
+    {
+      "requested_tokens": 32768,
+      "history_tokens": 32768,
+      "kv_bytes_if_full_context": 671088640,
+      "commit_seconds": 27.597495317459106,
+      "state_bytes": 41944024,
+      "ratio_kv_over_state": 15.999624642595093,
+      "memory_query_seconds": 1.2889316082000732,
+      "memory_answer": "Log entry 12 recorded a temperature of 374 kelvin.",
+      "fullctx_query_seconds": null,
+      "fullctx_answer": "skipped (> --fullctx-max 0)"
+    },
+    {
+      "requested_tokens": 65536,
+      "history_tokens": 65536,
+      "kv_bytes_if_full_context": 1342177280,
+      "commit_seconds": 51.60842752456665,
+      "state_bytes": 41944024,
+      "ratio_kv_over_state": 31.999249285190185,
+      "memory_query_seconds": 1.4584386348724365,
+      "memory_answer": "The temperature recorded in log entry 12 was 374 kelvin.",
+      "fullctx_query_seconds": null,
+      "fullctx_answer": "skipped (> --fullctx-max 0)"
+    },
+    {
+      "requested_tokens": 131072,
+      "history_tokens": 131072,
+      "kv_bytes_if_full_context": 2684354560,
+      "commit_seconds": 95.64786624908447,
+      "state_bytes": 41944024,
+      "ratio_kv_over_state": 63.99849857038037,
+      "memory_query_seconds": 1.2486741542816162,
+      "memory_answer": "The temperature recorded in log entry 12 was 354 kelvin.",
+      "fullctx_query_seconds": null,
+      "fullctx_answer": "skipped (> --fullctx-max 0)"
+    }
+  ]
+}

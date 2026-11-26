@@ -1,0 +1,7 @@
+{
+  "model": "/mnt/ssd/models/Qwen3.6-35B-A3B",
+  "n": 164,
+  "pass@1": 92.68,
+  "timeouts": 0,
+  "minutes": 39.2
+}
