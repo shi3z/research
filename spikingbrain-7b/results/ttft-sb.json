@@ -1,0 +1,53 @@
+{
+  "model": "/mnt/ssd/spikingbrain/V1-7B-base",
+  "rows": [
+    {
+      "length": 4096,
+      "seconds": 0.3117,
+      "min": 0.3102,
+      "max": 0.3142,
+      "tok_per_s": 13139,
+      "peak_gib": 14.74
+    },
+    {
+      "length": 8192,
+      "seconds": 0.6218,
+      "min": 0.6176,
+      "max": 0.6218,
+      "tok_per_s": 13175,
+      "peak_gib": 15.28
+    },
+    {
+      "length": 16384,
+      "seconds": 1.234,
+      "min": 1.2334,
+      "max": 1.2353,
+      "tok_per_s": 13277,
+      "peak_gib": 16.37
+    },
+    {
+      "length": 32768,
+      "seconds": 2.4621,
+      "min": 2.4616,
+      "max": 2.463,
+      "tok_per_s": 13309,
+      "peak_gib": 18.54
+    },
+    {
+      "length": 65536,
+      "seconds": 4.9598,
+      "min": 4.953,
+      "max": 4.9676,
+      "tok_per_s": 13213,
+      "peak_gib": 22.88
+    },
+    {
+      "length": 131072,
+      "seconds": 10.022,
+      "min": 9.9856,
+      "max": 10.0267,
+      "tok_per_s": 13078,
+      "peak_gib": 31.57
+    }
+  ]
+}

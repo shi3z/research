@@ -1,0 +1,60 @@
+{
+  "model": "/mnt/ssd/spikingbrain/V1-7B-base",
+  "k": 2.0,
+  "tokens": 2048,
+  "zero_fraction_pct": 25.52,
+  "report_3step_bit_sparsity_pct": 67.7,
+  "report_claim_pct": 69.15,
+  "mean_abs_spike": 1.977,
+  "report_mean_spike_claim": 1.13,
+  "within_int3_pct": 97.3,
+  "report_within_int3_claim": 94.1,
+  "n_linear_hooked": 224,
+  "by_group": {
+    "model.layers.N.attn.q_proj": {
+      "zero_pct": 22.13,
+      "bit_sparsity_pct": 66.53,
+      "mean_abs_spike": 1.981
+    },
+    "model.layers.N.attn.k_proj": {
+      "zero_pct": 22.13,
+      "bit_sparsity_pct": 66.53,
+      "mean_abs_spike": 1.981
+    },
+    "model.layers.N.attn.v_proj": {
+      "zero_pct": 22.13,
+      "bit_sparsity_pct": 66.53,
+      "mean_abs_spike": 1.981
+    },
+    "model.layers.N.attn.gk_proj.0": {
+      "zero_pct": 21.46,
+      "bit_sparsity_pct": 66.25,
+      "mean_abs_spike": 1.9814
+    },
+    "model.layers.N.attn.gk_proj.1": {
+      "zero_pct": 1.83,
+      "bit_sparsity_pct": 63.85,
+      "mean_abs_spike": 1.9834
+    },
+    "model.layers.N.attn.o_proj": {
+      "zero_pct": 31.37,
+      "bit_sparsity_pct": 70.61,
+      "mean_abs_spike": 1.9681
+    },
+    "model.layers.N.mlp.gate_proj": {
+      "zero_pct": 17.46,
+      "bit_sparsity_pct": 64.9,
+      "mean_abs_spike": 1.9852
+    },
+    "model.layers.N.mlp.up_proj": {
+      "zero_pct": 17.46,
+      "bit_sparsity_pct": 64.9,
+      "mean_abs_spike": 1.9852
+    },
+    "model.layers.N.mlp.down_proj": {
+      "zero_pct": 29.78,
+      "bit_sparsity_pct": 69.02,
+      "mean_abs_spike": 1.9728
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model": "/mnt/ssd/spikingbrain/Qwen2.5-7B",
+  "n": 490,
+  "shots": 0,
+  "method": "option-letter logprob argmax",
+  "accuracy": 45.92,
+  "by_category": {
+    "biology": 62.86,
+    "business": 48.57,
+    "chemistry": 28.57,
+    "computer science": 57.14,
+    "economics": 54.29,
+    "engineering": 37.14,
+    "health": 51.43,
+    "history": 42.86,
+    "law": 17.14,
+    "math": 48.57,
+    "other": 54.29,
+    "philosophy": 48.57,
+    "physics": 42.86,
+    "psychology": 48.57
+  },
+  "minutes": 0.3
+}

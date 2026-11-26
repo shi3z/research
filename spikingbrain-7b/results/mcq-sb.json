@@ -1,0 +1,24 @@
+{
+  "model": "/mnt/ssd/spikingbrain/V1-7B-base",
+  "n": 490,
+  "shots": 0,
+  "method": "option-letter logprob argmax",
+  "accuracy": 28.57,
+  "by_category": {
+    "biology": 51.43,
+    "business": 14.29,
+    "chemistry": 17.14,
+    "computer science": 34.29,
+    "economics": 40.0,
+    "engineering": 17.14,
+    "health": 34.29,
+    "history": 25.71,
+    "law": 20.0,
+    "math": 34.29,
+    "other": 31.43,
+    "philosophy": 25.71,
+    "physics": 11.43,
+    "psychology": 42.86
+  },
+  "minutes": 1.3
+}

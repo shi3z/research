@@ -1,0 +1,49 @@
+{
+  "model": "/mnt/ssd/spikingbrain/Qwen2.5-7B",
+  "rows": [
+    {
+      "length": 4096,
+      "seconds": 0.3968,
+      "min": 0.3966,
+      "max": 0.3992,
+      "tok_per_s": 10322,
+      "peak_gib": 14.75
+    },
+    {
+      "length": 8192,
+      "seconds": 0.9602,
+      "min": 0.9571,
+      "max": 0.9624,
+      "tok_per_s": 8531,
+      "peak_gib": 15.35
+    },
+    {
+      "length": 16384,
+      "seconds": 2.6382,
+      "min": 2.6375,
+      "max": 2.642,
+      "tok_per_s": 6210,
+      "peak_gib": 16.62
+    },
+    {
+      "length": 32768,
+      "seconds": 8.0864,
+      "min": 8.0796,
+      "max": 8.087,
+      "tok_per_s": 4052,
+      "peak_gib": 19.55
+    },
+    {
+      "length": 65536,
+      "seconds": 27.7539,
+      "min": 27.7476,
+      "max": 27.766,
+      "tok_per_s": 2361,
+      "peak_gib": 29.85
+    },
+    {
+      "length": 131072,
+      "oom": true
+    }
+  ]
+}
